@@ -1,0 +1,304 @@
+body{
+	background-color: #252525;
+	margin: 0;
+	padding: 0;
+}
+a{
+	color: white;
+}
+li{
+	list-style-type: none;
+}
+.bar a{
+	text-decoration: none;
+}
+.header,.fixed a{
+	text-decoration: none;
+}
+.header{
+	position: fixed;
+	width: 100%;
+	z-index: 100;
+}
+.head_text{
+	padding-right: 2%;
+}
+.top{
+	margin:13px;
+	color: white;
+	display: inline-block;
+	font-family: 'bebas_neuebook';
+	font-size: 27px;/*150%*/
+}
+.logo{
+	margin-right: 30%;
+}
+.logo img{
+	width: 100px; /*15%*/
+}
+.search{
+	position:relative;
+	bottom: 5px;
+}
+.search input{
+  width: 150px;
+  height: 25px;
+  border: 0px solid #252525;
+  border-radius: 15px;
+  font-size: 15px;
+  text-align: left;
+  background-color: #252525;
+  background-image:url('img/search_icon.png');
+  background-size: 5%;
+  background-position:12px 10px; 
+  background-repeat: no-repeat;
+  padding-left: 10%;
+  opacity: 0.6;
+  outline: none;
+  padding-left: 25px;
+ }
+ .searchbar:focus{
+ 	opacity: 1;
+ }
+.searchbar:focus::-webkit-input-placeholder{ /*Chrome/Opera/Safari*/
+	color: #525252;
+}
+.searchbar::-webkit-input-placeholder{ /*Chrome/Opera/Safari*/
+	color: black;
+}
+.searchbar::-moz-placeholder{ /*Firefox 19+*/
+	color: black;
+}
+.login{
+	position:relative;
+	bottom: -5px;
+
+}
+.login img{
+	width: 30px;
+}
+
+#sroll{
+	background-color: red;
+	z-index: 11;
+	width: 10%;
+	height: 10%;
+	position: absolute;
+	right: 45%;
+	top: 85%;
+
+}
+.fixed {
+  	position: fixed;
+	width: 100%;
+	z-index: 100;
+
+}
+
+
+
+
+.vid{
+	width: 100%;
+	z-index: -10;
+}
+.media img{
+	width: 40px;
+	color: white;
+}
+.insta{
+	position: absolute;
+	right: 13px;
+	top: 200px;
+}
+.fb{
+	position: absolute;
+	right: 13px;
+	top: 250px;
+}
+.twt{
+	position: absolute;
+	right: 13px;
+	top: 300px;
+}
+.header_text-2{
+	font-family: 'bebas_neuelight';
+	font-size: 50px;
+	color: white;
+	text-align: center;
+	margin-top: 60px;
+	margin-bottom: 100px;
+}
+.items{
+	height: 600px;
+}
+.bar{
+	display: inline-block;
+	text-align: center;
+	border: 0px solid;
+}
+.block-1{
+	font-family: 'bebas_neuebold';
+	color: white;
+	position: absolute;
+	left: 7.5%;
+	background-image: linear-gradient(#252525 20%,#525252);
+	font-size: 50px;
+}
+.block-2{
+	font-family: 'bebas_neuebold';
+	color: white;
+	position: absolute;
+	right: 37.5%;
+    background-image: linear-gradient(#252525 20%,#525252);
+    font-size: 60px;
+}
+.block-3{
+	font-family: 'bebas_neuebold';
+	color: white;
+	position: absolute;
+	right: 7.5%;
+	background-image: linear-gradient(#252525 20%,#525252);
+	font-size: 50px;
+}
+.bar_img-1 img{
+	width: 70%;
+	padding-top:20px; 
+	padding-bottom: 40px;
+}
+.bar_img-2 img{
+	width: 70%;
+	padding-top:50px; 
+	padding-bottom: 50px;
+}
+.bar_img-3 img{
+	width: 70%;
+	padding-top:20px; 
+	padding-bottom: 40px;
+}
+.learn{
+	padding-top: 10px;
+	padding-bottom: 10px; 
+	font-family: 'bebas_neuebold';
+	font-size: 20px;
+	border: 5px solid #4C4C4C;
+	background-color: #252525;
+
+}
+.partners_icon{
+	background: linear-gradient(360deg, #252525, white);
+	background-size: 400% 400%;
+
+		-webkit-animation: AnimationName 50s ease infinite;
+		-moz-animation: AnimationName 50s ease infinite;
+		animation: AnimationName 50s ease infinite;
+}
+@-webkit-keyframes AnimationName {
+    0%{background-position:50% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:50% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:50% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:50% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:50% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:50% 0%}
+}
+
+.partners_text{
+	color: white; 
+	font-family: 'bebas_neuebold';
+	font-size: 70px;
+	padding-left: 13px;
+	padding-top: 10px;
+}
+.partners_icon img{
+	width: 150px;
+}
+.row_1 div{
+	display: inline-block;
+}
+.row_2 div{
+	display: inline-block;
+}
+.row_1{
+	padding-top: 30px;
+	margin-left: 27.5%;
+}
+.row_2{
+ 	margin-left: 10%;
+ 	padding-bottom: 30px;
+}
+.JBL{
+	margin-left:  30%;
+}
+.Sony, .Kygo{
+	margin-left: 25%;
+}
+.footer .navigation, .signup{
+	display: inline-block;
+}
+.navigation{
+	padding: 50px 0 50px 20%;
+}
+.signup{
+	padding: 50px 0 50px 30%;
+}
+.footer_up{
+	padding-top: 10px;
+}
+.footer_up img{
+	width: 15px;
+}
+.footer_head_text{
+	color: white;
+	font-family: Arial;
+	font-size: 20px;
+	padding-bottom: 7px;
+}
+.footer_media{
+	margin-top: 10px;
+	margin-bottom: 0;
+}
+.footer_social,.copyright{
+	display: inline-block;
+	vertical-align: middle;
+}
+.copyright{
+	color: white;
+	margin-left: 10px;
+	font-family: Arial;
+	font-size: 15px;
+}
+.footer_social img{
+	width: 25px;
+}
+.footer_input input{
+	height: 35px;
+	box-sizing: border-box;
+	padding-left: 10px;
+	outline: none;
+}
+.footer_input button{
+	margin-left: 10px;
+	height: 35px;
+	border: 3px solid;
+	border-color: #ffffff;
+	background-color: #252525;
+	text-decoration: none;
+	color: #ffffff;
+	outline: none;
+	cursor: pointer;
+	font-family: Arial;
+}
+.footer_input button:active{
+	border: 3px solid;
+	background-color: white;
+	color: #252525;
+	font-weight: bold;
+	font-family: Arial;
+}

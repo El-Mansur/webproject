@@ -1,0 +1,72 @@
+body{
+	background-color: #252525;
+	margin: 0;
+}
+
+/*heaher*/
+.header a{
+	text-decoration: none;
+}
+.header{
+	position: fixed;
+	width: 100%;
+	z-index: 10;
+	background-color: #fffe;
+}
+.head_text{
+	padding-right: 2%;
+}
+.top{
+	margin:13px;
+	color: white;
+	display: inline-block;
+	font-family: 'bebas_neuebook';
+	font-size: 27px;/*150%*/
+}
+.logo{
+	margin-right: 30%;
+}
+.logo img{
+	width: 100px; /*15%*/
+}
+.search{
+	position:relative;
+	bottom: 5px;
+}
+.search input{
+  width: 150px;
+  height: 25px;
+  border: 0px solid #252525;
+  border-radius: 15px;
+  font-size: 15px;
+  text-align: left;
+  background-color: #252525;
+  background-image:url('img/search_icon.png');
+  background-size: 5%;
+  background-position:12px 10px; 
+  background-repeat: no-repeat;
+  padding-left: 10%;
+  opacity: 0.6;
+  outline: none;
+  padding-left: 25px;
+ }
+ .searchbar:focus{
+ 	opacity: 1;
+ }
+.searchbar:focus::-webkit-input-placeholder{ /*Chrome/Opera/Safari*/
+	color: #525252;
+}
+.searchbar::-webkit-input-placeholder{ /*Chrome/Opera/Safari*/
+	color: black;
+}
+.searchbar::-moz-placeholder{ /*Firefox 19+*/
+	color: black;
+}
+.login{
+	position:relative;
+	bottom: -5px;
+
+}
+.login img{
+	width: 30px;
+}
